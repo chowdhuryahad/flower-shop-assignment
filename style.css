@@ -11,6 +11,15 @@ body {
     list-style: none;
     text-decoration: none;
 }
+paragraph{
+width: 634px;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+}
 .paragraph-style{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -18,6 +27,8 @@ body {
     line-height: 30px;
     text-align: center;
     margin: 24px 0px;
+    gap: 20px 0px;
+    justify-content: baseline;
 }
 
 .button-style{
@@ -88,7 +99,7 @@ body {
     gap: 97px;
 }
 
-.banner-text h1{
+.banner h1{
     color: #272727;
     font-size: 60px;
     font-weight: 800;
@@ -115,7 +126,7 @@ body {
     padding-top: 50px;
     width: 100%;
 }
-/* Our Featured Flowers section desgin */
+/* Featured Flowers section*/
 .our-featured-Flowers{
     padding: 130px 0px 60px 0px;
 }
@@ -156,9 +167,7 @@ body {
     background-color: #477D1126;
 }
 
-/* featured bottom suport delvary section desgin */
-
-.delivary-suport-part{
+.delivary-support-part{
     display: flex;
     justify-content: space-evenly;
     gap: 70px;
@@ -168,11 +177,11 @@ body {
     margin-top: 128px;
 }
 
-.delivary-suport{
+.delivary-support{
     text-align: center;
-    flex-basis: 33.33333333333333%;
+    flex-basis: 33%;
 }
-.delivary-suport img{
+.delivary-support img{
     margin-bottom: 24px;
 }
 
@@ -238,7 +247,7 @@ body {
     color: white;
     cursor: pointer;
 }
-/* seal and deal section desgin */
+/* seal and deal section */
 
 .sale-and-deal-section{
     border-radius: 8px;
@@ -262,7 +271,7 @@ body {
 }
 
 
-/* instragram and leatest deal part desgin */
+/* instragram part desgin */
 
 .instagram-leatest-deal-4{
     padding: 128px 0px;
