@@ -74,10 +74,7 @@ body {
     width: 80%;
     margin: auto;
 }
-
-
-
-/* header part desgin */
+/* header part desgin desgin */
 
 .header{
     background-color: #E554731A;
@@ -105,8 +102,6 @@ body {
     padding-top: 30px;
 }
 
-
-
 .banner-text p{
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
@@ -120,3 +115,421 @@ body {
     padding-top: 50px;
     width: 100%;
 }
+/* Our Featured Flowers section desgin */
+.our-featured-Flowers{
+    padding: 130px 0px 60px 0px;
+}
+.our-featured-img-card{
+    display: flex;
+    gap: 26px;
+    
+}
+
+.img-card-text{
+    flex-basis: 33.33%;
+    text-align: center;
+    margin-top: 48px;
+}
+.img-card-text div{
+    height: 450px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    padding: 100px 70px 0px;
+    margin-bottom: 32px;
+}
+.img-card-text div img{
+    height: 100%;
+    width: 100%;
+}
+
+.featured-middle-img{
+    padding-bottom: 35px;
+}
+.img-card-text .card-tree-1{
+    background-color: #A7216226;
+}
+.img-card-text .card-tree-2{
+    background-color: #0597A026;
+
+}
+.img-card-text .card-tree-3{
+    background-color: #477D1126;
+}
+
+/* featured bottom suport delvary section desgin */
+
+.delivary-suport-part{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    padding: 60px 90px;
+    border-radius: 8px;
+    background: #2727270D;
+    margin-top: 128px;
+}
+
+.delivary-suport{
+    text-align: center;
+    flex-basis: 33.33333333333333%;
+}
+.delivary-suport img{
+    margin-bottom: 24px;
+}
+
+
+/* new product section desgin */
+
+.new-product-top{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.new-product{
+    position: relative;
+    text-align: center;
+}
+
+.all-product-degin .product-item{
+    width: 100%;
+    cursor: pointer;
+}
+
+.all-product-degin .product-item img{
+    width: 100%;
+}
+
+.new-product-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    
+}
+
+.all-product-degin h5,h6{
+    text-align: center;
+    color:  #6d6a6a;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.all-product-degin h6{
+    text-align: center;
+    color:  #6d6a6a;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.all-product-degin button{
+    background-color: #E55473;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    color: white;
+    cursor: pointer;
+}
+/* seal and deal section desgin */
+
+.sale-and-deal-section{
+    border-radius: 8px;
+    background: #E554730D;
+}
+
+.sale-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 186px;
+}
+
+.sale-deal-img{
+    padding: 100px 0px;
+}
+
+.sale-off{
+    color: #E55473;
+}
+
+
+/* instragram and leatest deal part desgin */
+
+.instagram-leatest-deal-4{
+    padding: 128px 0px;
+}
+.instagram-top-text{
+    text-align: center;
+}
+
+.instagram-flower-card{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    
+}
+.instagram-flower-card img{
+    width: 100%;
+    
+}
+
+
+.leatest-deal-contact{
+    padding: 100px 180px;
+    margin-top: 128px;
+}
+.contact-form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 55px;
+    outline: none;
+    border: none;
+    padding: 0px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal
+    
+}
+
+
+/* footer desgin */
+
+.footer{
+    background: #111010;
+    padding: 120px 312px;
+}
+
+.flower-shop-footer{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.flower-shop-footer span{
+    color: #FFFFFF;
+}
+
+.flower-shop-footer h2{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* desgin complete */
+
+
+/* responsive desgin media quary */
+
+/* small device  */
+
+@media screen and (max-width:576px) {
+    /* .header banner */
+    .header-banner{
+        flex-direction: column;
+        align-items: start;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-text h1{
+       width: 100%;
+        font-size: 40px;
+    }
+
+    .banner-text p{
+        width: 100%;
+        font-size: 17px;
+    }
+
+    /* futured section responsive */
+
+    .our-featured-img-card{
+        flex-direction: column;
+    }
+
+    /* delivary suport part  */
+
+    .delivary-suport-part{
+        flex-direction: column;
+    }
+
+    /* new product section  */
+
+    .new-product-top{
+        flex-direction: column;
+    }
+
+    /* new product bottom  */
+
+    .new-product-bottom{
+        flex-direction: column;
+    }
+
+    /* sale deal section  */
+
+    .sale-deal-container{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .sale-and-deal-section{
+        padding-top: 50px;
+    }
+
+    /* .instagram-flower-card */
+
+    .instagram-flower-card{
+        flex-direction: column;
+    }
+
+    /* .contact-form */
+
+    .leatest-deal-contact{
+        padding: 73px 33px;
+        
+    }
+
+    .similar-title-style{
+        color: black;
+        
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 100px 0px;
+    }
+    
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:991px) {
+    /* banner section */
+    .header-banner{
+        flex-direction: column;
+        align-items: start;
+        padding: 0px 15px;
+    }
+    /* futured section  */
+
+    .our-featured-img-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our-featured-img-card .img-card-text{
+       flex-basis: 60%;
+    }
+    /* delivary suport part  */
+
+    .delivary-suport-part h6{
+        font-size: 15px;
+    }
+    .delivary-suport-part {
+        padding: 40px 40px;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .delivary-suport{
+        flex-basis: 40%;
+    }
+
+    /* new product responsive */
+
+    .new-product-top{
+        flex-wrap: wrap;
+    }
+
+    .new-product-top .new-product{
+        width: calc((100% - 20px)/2);
+    }
+
+    .new-product-bottom{
+        flex-wrap: wrap;
+        gap:20px ;
+    }
+
+    .new-product{
+        width: calc((100% - 20px)/2);
+    }
+
+    /* sale dale section  */
+    .sale-deal-container >div{
+        width: 47%;
+    }
+
+    
+    .sale-deal-container{
+        gap: 10px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .sale-deal-img img{
+        width: 100%;
+    }
+    /* .instagram-flower-card */
+
+    .instagram-flower-card{
+        flex-wrap: wrap;
+    }
+
+    .flower-card{
+        width: 45%;
+    }
+
+    /* letest container  */
+
+    .contact-form{
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }
+
+    .leatest-deal-contact{
+        padding: 100px 30px;
+        background-repeat: no-repeat;
+    }
+
+    .footer{
+        padding: 100px 0px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+        .leatest-deal-contact{
+            padding: 100px 100px;
+            background-repeat: no-repeat;
+        }
+}
+
