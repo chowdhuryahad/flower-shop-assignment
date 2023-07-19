@@ -89,20 +89,23 @@ line-height: 30px;
 
 .header{
     background-color: #E554731A;
-    min-height: 100vh;
+    min-height: 100px;
+    
 }
 
 .header-banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 97px;
+        align-items: start;
+        padding: 15px 15px;
+    
 }
 
 .banner h1{
     color: #272727;
-    font-size: 60px;
-    font-weight: 800;
+    font-size: 70px;
+    font-weight: 700;
     line-height: normal;
     width: 708px;
     
@@ -112,19 +115,29 @@ line-height: 30px;
     width: 50%;
     padding-top: 30px;
 }
+p{
+margin-top: auto;
+margin-bottom: 40px;
+color: rgba(35, 35, 35, 0.40);
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+justify-content: right;
+size-adjust: 10px;
+
+}
 
 .banner-text p{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 14px;
+    font-size:12px;
     font-weight: 400;
     line-height: 25px;
     margin: 32px 0px;
 }
 
 .banner-img img{
-    margin-bottom: -3px;
-    padding-top: 50px;
     width: 100%;
+    width: 400px;
 }
 /* Featured Flowers section*/
 .our-featured-Flowers{
